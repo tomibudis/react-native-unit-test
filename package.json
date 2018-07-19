@@ -8,8 +8,6 @@
     "test-android": "detox build --configuration android.emu.debug && detox test --configuration android.emu.debug -l verbose"
   },
   "dependencies": {
-    "detox": "^8.0.0",
-    "mocha": "^5.2.0",
     "native-base": "^2.4.1",
     "react": "16.3.1",
     "react-native": "0.55.4",
@@ -22,7 +20,9 @@
   "devDependencies": {
     "babel-jest": "22.4.3",
     "babel-preset-react-native": "4.0.0",
+    "detox": "^8.0.0",
     "jest": "22.4.3",
+    "mocha": "^5.2.0",
     "react-test-renderer": "16.3.1"
   },
   "jest": {
